@@ -1,0 +1,48 @@
+.linear-gradient {
+    background: -webkit-linear-gradient(#000000, #9d06d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.my-color {
+  background-color: #9d06d9;
+}
+
+.highlight {
+  color: #ffffff;
+}
+
+span {
+  font-weight: bold;
+}
+
+#card1 {
+  position: relative;
+  animation-name: card1;
+  animation-duration: 1s;
+}
+
+#card2 {
+  position: relative;
+  animation-name: card2;
+  animation-duration: 1s;
+}
+
+#card3 {
+  position: relative;
+  animation-name: card3;
+  animation-duration: 1s;
+}
+
+@keyframes card1 {
+  from {right: 200px}
+  to {left: 150px}
+}
+
+@keyframes card2 {
+  
+}
+
+@keyframes card3 {
+  
+}
