@@ -1,12 +1,12 @@
 .linear-gradient-light {
   background: -webkit-linear-gradient(#ffffff, #9d06d9);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .linear-gradient-dark {
   background: -webkit-linear-gradient(#000000, #9d06d9);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -89,4 +89,36 @@ input:checked + .slider:before {
 .dark {
   background-color: #000000;
   color: #ffffff;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
